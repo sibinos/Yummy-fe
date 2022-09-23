@@ -1,0 +1,34 @@
+.slider{
+    display: flex;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+
+.btn1{
+    position: absolute;
+    left: 0;
+    background-color: transparent;
+    width: 50px;
+    height: 100%;
+    z-index: 99;
+    border: none;
+    font-size: larger;
+    color: aliceblue;
+}
+.btn2{
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    width: 50px;
+    height: 100%;
+    z-index: 99;
+    border: none;
+    font-size: larger;
+    color: aliceblue;
+
+}
+

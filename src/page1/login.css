@@ -1,0 +1,36 @@
+.login{
+    text-align: center;
+    font-style:oblique;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(56, 90, 105);
+    margin: auto;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.login h2{
+    font-size: 35px;
+    color: #fff;
+    opacity:.8;
+}
+.login button{
+    width: 80px;
+    height: 30px;
+    margin-top: 8%;
+    margin-left: 2%;
+    background-color: rgb(200, 222, 245);
+}
+.login input{
+    background-color: rgb(200, 222, 245);
+}
+.loginStatus {
+    
+    margin: auto;
+    text-align: center;
+}
+.loginStatus button{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(150, 163, 202);
+}

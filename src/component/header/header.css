@@ -1,0 +1,33 @@
+
+.header{
+    margin: 0;
+    padding:10px;
+    background-color: rgb(222, 189, 80);
+    color: rgb(71, 83, 94);
+    display: flex;
+    justify-content: space-between
+}
+.header ul{
+    display: flex;
+    
+}
+.header ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 40px;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(71, 83, 94);
+}
+
+.header img{
+    width: 10vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+.header p{
+    font-size: 25px;
+    font-weight: 600;
+}

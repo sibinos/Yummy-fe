@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(222, 189, 80);
+
+
+}
+.footer ul li{
+    margin-left:-20px ;
+}

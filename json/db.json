@@ -1,0 +1,163 @@
+{
+  "listArray": [
+    "Aboutus",
+    "Feture",
+    "News",
+    "Carreers"
+  ],
+  "listArray2": [
+    "Account",
+    "Support center",
+    "Feedback",
+    "Accesibility"
+  ],
+  "foodList": [
+    {
+      "name": "normalBurger",
+      "price": 180,
+      "category": "burger",
+      "image": "https://thumbs.dreamstime.com/b/burgers-hamburgers-cheeseburgers-fire-black-background-83607167.jpg"
+    },
+    {
+      "name": "jumbo beef burger",
+      "price": 290,
+      "category": "burger",
+      "image": "https://assets.cntraveller.in/photos/6246f468c579dd6f2d1244b6/4:3/w_2120,h_1590,c_limit/Best%20Burgers%20in%20Mumbai%20_Louis%20Monstercheese%20Burger.jpg"
+    },
+    {
+      "name": "jumboBurger",
+      "price": 230,
+      "category": "burger",
+      "image": "https://thumbs.dreamstime.com/b/delicious-burgers-beef-patty-bacon-cheese-cabbage-rustic-wooden-background-93856260.jpg"
+    },
+    {
+      "name": "jumbo chiken burger",
+      "price": 250,
+      "category": "burger",
+      "image": "https://cdn.pixabay.com/photo/2022/05/25/21/28/burger-7221436__340.jpg"
+    },
+    {
+      "name": "cheesBurger",
+      "price": 195,
+      "category": "burger",
+      "image": "https://thumbs.dreamstime.com/b/burgers-table-wooden-close-up-56349091.jpg"
+    },
+    {
+      "name": "pizza",
+      "price": 350,
+      "category": "pizza",
+      "image": "https://thumbs.dreamstime.com/b/brick-oven-pizza-margarita-baked-wood-51047368.jpg"
+    },
+    {
+      "name": "mexicanPizza",
+      "price": 495,
+      "category": "pizza",
+      "image": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+    },
+    {
+      "name": "comboPizza",
+      "price": 565,
+      "category": "pizza",
+      "image": "https://thumbs.dreamstime.com/b/pizza-3979166.jpg"
+    },
+    {
+      "name": "italian pizza",
+      "price": 575,
+      "category": "pizza",
+      "image": "https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg"
+    },
+    {
+      "name": "fullmeat pizza",
+      "price": 600,
+      "category": "pizza",
+      "image": "https://st.depositphotos.com/1900347/4146/i/950/depositphotos_41466555-stock-photo-image-of-slice-of-pizza.jpg"
+    }
+  ],
+  "productDetails": [
+    {
+      "productId": 1,
+      "productImage": "https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers/intro-1650118593.webp",
+      "productPrice": "Burger",
+      "productAmount": 180
+    },
+    {
+      "productId": 2,
+      "productImage": "https://st2.depositphotos.com/3957801/5642/i/450/depositphotos_56423065-stock-photo-bacon-burger.jpg",
+      "productPrice": "Jumbo Burger",
+      "productAmount": 190
+    },
+    {
+      "productId": 3,
+      "productImage": "https://cdn.britannica.com/08/177308-050-94D9D6BE/Food-Pizza-Basil-Tomato.jpg?q=60",
+      "productPrice": "Mexican Pizza",
+      "productAmount": 480
+    },
+    {
+      "productId": 4,
+      "productImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/03/15/1074146-pizza.jpg",
+      "productPrice": "Pizza",
+      "productAmount": 380
+    }
+  ],
+  "x": [
+    "https://img.freepik.com/free-psd/food-menu-delicious-pizza-web-banner-template_106176-419.jpg?w=996&t=st=1656937325~exp=1656937925~hmac=20cdc4f514b53534199e26dfc4c4a1763274669a2d9510b828c0a36cc0623543",
+    "https://img.freepik.com/free-psd/food-menu-restaurant-web-banner-template_106176-310.jpg?w=996",
+    "https://as1.ftcdn.net/v2/jpg/02/92/08/20/1000_F_292082032_oxXr6P0OARzxfrjHM5R8QJ4BchsBfxFK.jpg"
+  ],
+  "feedback": [
+    {
+      "comment": "hello",
+      "id": 1
+    },
+    {
+      "comment": "sibin",
+      "id": 2
+    },
+    {
+      "comment": "ss",
+      "id": 3
+    },
+    {
+      "comment": "sa",
+      "id": 4
+    },
+    {
+      "comment": "ww",
+      "id": 5
+    }
+  ],
+  "cartitems": [
+    {
+      "productId": 3,
+      "productImage": "https://cdn.britannica.com/08/177308-050-94D9D6BE/Food-Pizza-Basil-Tomato.jpg?q=60",
+      "productPrice": "Mexican Pizza",
+      "productAmount": 480,
+      "count": 5,
+      "id": 1
+    },
+    {
+      "productId": 2,
+      "productImage": "https://st2.depositphotos.com/3957801/5642/i/450/depositphotos_56423065-stock-photo-bacon-burger.jpg",
+      "productPrice": "Jumbo Burger",
+      "productAmount": 190,
+      "count": 1,
+      "id": 2
+    },
+    {
+      "productId": 1,
+      "productImage": "https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers/intro-1650118593.webp",
+      "productPrice": "Burger",
+      "productAmount": 180,
+      "count": 1,
+      "id": 3
+    },
+    {
+      "productId": 4,
+      "productImage": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/03/15/1074146-pizza.jpg",
+      "productPrice": "Pizza",
+      "productAmount": 380,
+      "count": 1,
+      "id": 4
+    }
+  ]
+}

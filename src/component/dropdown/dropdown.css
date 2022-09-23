@@ -1,0 +1,45 @@
+.drop{
+    width: 100%;
+    height: fit-content;
+    background-color:rgb(221, 213, 213) ;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(221, 213, 213);
+}
+.displaydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    text-align: center;
+    background-color: rgb(221, 213, 213);
+    margin:4% auto ;
+}
+.displaydiv div{
+    text-align: center;
+    margin: 0px 30px;
+}
+.displaydiv div img{
+    width: 150px;
+    height: 150px;
+}
+.dropdown label{
+    font-size: 22px;
+    font-weight: 500;
+}
+.dropdown select{
+    width: 180px;
+    font-size: 15px;
+    background-color: rgb(201, 154, 97);
+    text-align: center;
+    padding: 10px;
+    margin-top: 2%;
+}
+.dropdown select option{
+    font-size: 15px;
+}
+
+
