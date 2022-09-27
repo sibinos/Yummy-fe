@@ -3,8 +3,9 @@ import { useEffect} from 'react';
 import {useSelector,useDispatch} from 'react-redux'
 import {fetchData,addtocart} from '../../API/contentapi';
 import {StateType} from '../../redux/store';
+import {quantityAction} from '../../redux/common/quantityaction'
 import axios from "axios";
-import { json } from 'stream/consumers';
+// import { json } from 'stream/consumers';
 // import {fetchDataType} from '../../API/contentapi'
 interface ContentType{
     "id": number,
@@ -14,6 +15,7 @@ interface ContentType{
 }
 function Content(){
     const content=useSelector((state:StateType)=>{return state.contentReducer.content})
+    const isadd=useSelector((State:StateType)=>{return State.quantityReducer.isAdd})
     const dispatch=useDispatch()
     
     useEffect(()=>{
@@ -23,6 +25,7 @@ function Content(){
         console.log(detail+"ehere")
         axios.post('http://localhost:8001/auth/addItem',{product_id:detail.id,quantity:1},{headers:
         {'token':String(localStorage.getItem('tokenName'))}})
+        dispatch(quantityAction(true))
     }
 
     return(

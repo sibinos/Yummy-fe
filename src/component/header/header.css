@@ -21,6 +21,11 @@
     text-decoration: none;
     color: rgb(71, 83, 94);
 }
+.header ul li span{
+    font-size: 25px;
+    margin-top: 5%;
+    text-align: center;
+}
 
 .header img{
     width: 10vh;

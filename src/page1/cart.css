@@ -1,8 +1,13 @@
 .cart{
     margin: auto;
     text-align: center;
+    display:flex;
+    justify-content: center;
 }
 .items  #btn{
     color: aliceblue;
     margin-left:4% ;
+}
+.cart .items{
+    margin-top: 29%;
 }

@@ -20,11 +20,10 @@ function Cart(){
         dispatch<any>(fetchCartItem())
     })
 }
-
-
     const plusCount=(item:any)=>{
         axios.post('http://localhost:8001/auth/updateCount',{product_id:item.product_id,update:'+'},{headers:
         {'token':String(localStorage.getItem('tokenName'))}}).then((res)=>{
+            console.log(res)
             dispatch<any>(fetchCartItem())
         })
     }
@@ -37,10 +36,8 @@ function Cart(){
 
     return(
         <div className="cart">
-            
-            <h1>Cart</h1>
+
             <div>
-                
                 {cartItems.map((item:any)=> <div>
                                             <div className="items" key={item.id}>
                                                 <img className='product-img' src={item.imageurl} alt="img1" />
